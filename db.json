@@ -1,0 +1,15 @@
+{
+  "todos": [
+    {
+      "id": "2",
+      "text": "REST API通信をマスターする",
+      "completed": false
+    },
+    {
+      "text": "aa",
+      "completed": false,
+      "id": "84sGTnfmjGI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
