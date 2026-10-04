@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // 擬似サーバー（json-server）のエンドポイントURLhttps://todo-backend-3fzp.onrender.com
-const API_URL = 'https://todo-backend-3fzp.onrender.com/todos'
+const API_URL = 'https://todo-backend-3fzp.onrender.com/api/todos'
 
 export const todoApi = {
   // 1. GET: タスク一覧を取得する
