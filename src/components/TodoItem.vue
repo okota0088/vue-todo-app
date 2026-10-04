@@ -14,7 +14,7 @@ const todoStore = useTodoStore()
 <template>
   <li>
     <input type="checkbox" v-model="todo.completed" />
-    <span :class="{ done: todo.completed }">{{ todo.text }}</span>
+    <span :class="{ done: todo.completed }">{{ todo.title }}</span>
     <button @click="todoStore.deleteTodo(todo.id)" class="delete-btn">削除</button>
   </li>
 </template>

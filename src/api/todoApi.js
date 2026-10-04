@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-// 擬似サーバー（json-server）のエンドポイントURL
-const API_URL = 'http://localhost:3001/todos'
+// 擬似サーバー（json-server）のエンドポイントURLhttps://todo-backend-3fzp.onrender.com
+const API_URL = 'https://todo-backend-3fzp.onrender.com/todos'
 
 export const todoApi = {
   // 1. GET: タスク一覧を取得する
@@ -13,7 +13,7 @@ export const todoApi = {
   // 2. POST: 新しいタスクを追加する
   async addTodo(text) {
     const response = await axios.post(API_URL, {
-      text: text,
+      title: text,
       completed: false
     })
     return response.data
